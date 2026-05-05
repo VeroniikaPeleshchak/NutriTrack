@@ -3,8 +3,7 @@ import Foundation
 class NetworkManager {
     static let shared = NetworkManager()
     
-//  private let baseURL = "http://192.168.0.159:8080"
-    private let baseURL = "http://172.20.10.2:8080"
+    private let baseURL = "http://192.168.0.159:8080"
     
     private init() {}
     
